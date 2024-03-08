@@ -1,0 +1,21 @@
+name: sui_shinami
+description: "This package is developed for integration Shinami SDK for Sui."
+version: 1.0.0
+repository: "empty"
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+  flutter: ">=3.3.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  sui:
+    git:
+      url: https://github.com/chyiiiiiiiiiiii/sui.git
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  very_good_analysis: ^5.1.0
