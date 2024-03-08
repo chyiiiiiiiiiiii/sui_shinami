@@ -3,7 +3,7 @@
 [![pub package](https://img.shields.io/pub/v/sui_shinami.svg?label=sui_shinami&color=blue)](https://pub.dartlang.org/packages/sui_shinami)
 
 <p align="center">
-  <img src="./images/shinami.jpg" width="100%" alt="sui_shinami" />
+  <img src="./images/shinami.png" width="100%" alt="sui_shinami" />
 </p>
 
 This package is developed for integration Shinami SDK for Sui.
