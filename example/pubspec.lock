@@ -347,9 +347,9 @@ packages:
     dependency: "direct main"
     description:
       path: "."
-      ref: HEAD
-      resolved-ref: ea4037b93386345e0bd1fbe309b583cbaa99fcd3
-      url: "https://github.com/chyiiiiiiiiiiii/sui.git"
+      ref: "1355f22a6e86a6c35e6a23c41d7ef97f3400aa57"
+      resolved-ref: "1355f22a6e86a6c35e6a23c41d7ef97f3400aa57"
+      url: "https://github.com/mofalabs/sui"
     source: git
     version: "0.1.7"
   sui_shinami:
