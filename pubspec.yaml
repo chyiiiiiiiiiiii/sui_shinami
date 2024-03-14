@@ -11,12 +11,17 @@ dependencies:
   flutter:
     sdk: flutter
 
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.8.1
   sui:
     git:
       url: https://github.com/mofalabs/sui
       ref: 1355f22a6e86a6c35e6a23c41d7ef97f3400aa57
 
 dev_dependencies:
+  build_runner: ^2.4.8
   flutter_test:
     sdk: flutter
+  freezed: ^2.4.7
+  json_serializable: ^6.7.1
   very_good_analysis: ^5.1.0
