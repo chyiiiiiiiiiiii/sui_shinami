@@ -9,11 +9,11 @@ import 'package:sui_shinami/src/rpc_clients/shinami_rpc_client.dart';
 const gasStationRpcUrl = 'https://api.shinami.com/gas/v1';
 
 /// Gas station RPC client.
-class GasStationClient extends ShinamiRpcClient {
+class ShinamiGasStationClient extends ShinamiRpcClient {
   /// @param accessKey Gas access key. Note that the access key also determines which network your
   ///    transactions are targeting.
   /// @param url Optional URL override.
-  GasStationClient(
+  ShinamiGasStationClient(
     this.accessKey, {
     String url = gasStationRpcUrl,
   }) : super(

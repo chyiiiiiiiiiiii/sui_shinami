@@ -6,7 +6,7 @@ import 'package:sui/sui_account.dart';
 import 'package:sui/sui_client.dart';
 import 'package:sui/types/transactions.dart';
 import 'package:sui_shinami/src/constants/shinami_urls.dart';
-import 'package:sui_shinami/src/rpc_clients/gas_station_client.dart';
+import 'package:sui_shinami/src/rpc_clients/shinami_gas_station_client.dart';
 
 final class ShinamiGasStation {
   ShinamiGasStation({
@@ -16,11 +16,11 @@ final class ShinamiGasStation {
   final String shinamiAccessKey;
 
   late final gasStationSuiNodeClientEndPoint =
-      '${ShinamiUrls.shinamiNodeRpcUrl}/$shinamiAccessKey';
+      '${ShinamiUrls.nodeRpcUrl}/$shinamiAccessKey';
 
   late final gasStationSuiNodeClient =
       SuiClient(gasStationSuiNodeClientEndPoint);
-  late final gasStationClient = GasStationClient(shinamiAccessKey);
+  late final gasStationClient = ShinamiGasStationClient(shinamiAccessKey);
 
   Future<SuiTransactionBlockResponse> executeTransaction({
     required SuiAccount senderAccount,

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sui_shinami_example/pages/invisible_wallet_page.dart';
 import 'package:sui_shinami_example/pages/normal_page.dart';
 import 'package:sui_shinami_example/pages/transfer_page.dart';
 
@@ -33,6 +34,17 @@ class HomePage extends StatelessWidget {
                 ),
               ),
               child: const Text('Transfer'),
+            ),
+            const SizedBox(
+              height: 20,
+            ),
+            ElevatedButton(
+              onPressed: () => Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (BuildContext context) => const InvisibleWalletPage(),
+                ),
+              ),
+              child: const Text('Invisible Wallet'),
             ),
           ],
         ),
