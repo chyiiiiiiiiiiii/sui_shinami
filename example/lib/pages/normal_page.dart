@@ -24,7 +24,7 @@ class _NormalPageState extends State<NormalPage> {
     super.initState();
 
     _gasStation = ShinamiGasStation(
-        gasStationAndNodeAccessKey: gasStationAndNodeAccessKey);
+        shinamiAccessKey: shinamiAccessKey);
     _myAccount = SuiAccount.ed25519Account();
   }
 

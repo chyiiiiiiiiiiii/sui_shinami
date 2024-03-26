@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:sui_shinami_example/pages/home_page.dart';
 
-const gasStationAndNodeAccessKey =
-    String.fromEnvironment('gasStationAndNodeAccessKey');
+const shinamiAccessKey = String.fromEnvironment('shinamiAccessKey');
 
 class App extends StatelessWidget {
   const App({super.key});

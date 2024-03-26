@@ -34,7 +34,7 @@ class _TransferPageState extends State<TransferPage> {
     super.initState();
 
     _gasStation = ShinamiGasStation(
-        gasStationAndNodeAccessKey: gasStationAndNodeAccessKey);
+        shinamiAccessKey: shinamiAccessKey);
     _myAccount = SuiAccount.ed25519Account();
     _recipientAccount = SuiAccount.ed25519Account();
   }

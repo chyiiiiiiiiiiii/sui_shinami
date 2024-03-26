@@ -29,6 +29,14 @@ dependencies:
 
 Waiting...
 
+## Run
+---
+
+```
+flutter run --dart-define shinamiAccessKey=<key>
+```
+
+
 ## Usage
 ---
 

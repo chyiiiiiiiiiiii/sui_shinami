@@ -10,17 +10,17 @@ import 'package:sui_shinami/src/rpc_clients/gas_station_client.dart';
 
 final class ShinamiGasStation {
   ShinamiGasStation({
-    required this.gasStationAndNodeAccessKey,
+    required this.shinamiAccessKey,
   });
 
-  final String gasStationAndNodeAccessKey;
+  final String shinamiAccessKey;
 
   late final gasStationSuiNodeClientEndPoint =
-      '${ShinamiUrls.shinamiNodeRpcUrl}/$gasStationAndNodeAccessKey';
+      '${ShinamiUrls.shinamiNodeRpcUrl}/$shinamiAccessKey';
 
   late final gasStationSuiNodeClient =
       SuiClient(gasStationSuiNodeClientEndPoint);
-  late final gasStationClient = GasStationClient(gasStationAndNodeAccessKey);
+  late final gasStationClient = GasStationClient(shinamiAccessKey);
 
   Future<SuiTransactionBlockResponse> executeTransaction({
     required SuiAccount senderAccount,
