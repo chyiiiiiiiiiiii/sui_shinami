@@ -3,7 +3,7 @@
 [![pub package](https://img.shields.io/pub/v/sui_shinami.svg?label=sui_shinami&color=blue)](https://pub.dartlang.org/packages/sui_shinami)
 
 <p align="center">
-  <img src="./images/shinami.png" width="100%" alt="sui_shinami" />
+  <img src="shinami.png" width="100%" alt="sui_shinami" />
 </p>
 
 This package is developed for integration Shinami SDK for Sui.
@@ -12,25 +12,17 @@ We can easily use own sponsored wallet for user's transactions to give a smoothl
 > Now support by **PassionLab**.
 
 ## Features
----
 
 - [x] Shinami Gas Station
 
 ## Installation
----
 
 ```
 dependencies:
   sui_shinami: ^1.0.0
 ```
 
-## Demo
----
-
-Waiting...
-
 ## Run
----
 
 ```
 flutter run --dart-define shinamiAccessKey=<key>
@@ -38,7 +30,6 @@ flutter run --dart-define shinamiAccessKey=<key>
 
 
 ## Usage
----
 
 Use **TransactionBlock** to execute your transaction with `prefixTransaction` parameter.
 
@@ -67,7 +58,7 @@ final response = await _gasStation.executeTransaction(
     return transactionBlock.moveCall(
       '$movePackageAddress::$movePackageModule::$movePackageMethod',
       arguments: [
-        transactionBlock.object('0x6'),
+        transactionBlock.object('<object>'),
       ],
     );
   },
@@ -91,8 +82,6 @@ response = await _gasStation.executeTransaction(
 ```
 
 ## Contributing
-
----
 
 Welcome the talents to contribute. Let's make this plugin stronger!
 
