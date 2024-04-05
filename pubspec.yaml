@@ -2,7 +2,6 @@ name: sui_shinami
 description: "This package is developed for integration Shinami SDK for Sui."
 version: 1.0.0
 repository: "https://github.com/chyiiiiiiiiiiii/sui_shinami/tree/main"
-publish_to: none
 
 environment:
   sdk: ">=3.3.0 <4.0.0"
