@@ -51,7 +51,7 @@ final class ShinamiGasStation {
     final txSignatures = sponsoredResponse.txSignatures;
     final txSignaturesBytes = base64Decode(txSignatures);
     final senderSignature = await TransactionBlock.fromBytes(txSignaturesBytes)
-        .sign(SignOptions(senderAccount.keyPair));
+        .sign(SignOptions(signer: senderAccount.keyPair));
 
     final executeResponse =
         await gasStationSuiNodeClient.executeTransactionBlock(

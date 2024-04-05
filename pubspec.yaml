@@ -2,6 +2,7 @@ name: sui_shinami
 description: "This package is developed for integration Shinami SDK for Sui."
 version: 1.0.0
 repository: "https://github.com/chyiiiiiiiiiiii/sui_shinami/tree/main"
+publish_to: none
 
 environment:
   sdk: ">=3.3.0 <4.0.0"
@@ -11,10 +12,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  sui:
-    git:
-      url: https://github.com/mofalabs/sui
-      ref: 1355f22a6e86a6c35e6a23c41d7ef97f3400aa57
+  sui: ^0.2.0
 
 dev_dependencies:
   flutter_test:

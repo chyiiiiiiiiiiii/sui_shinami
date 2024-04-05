@@ -21,10 +21,10 @@ packages:
     dependency: transitive
     description:
       name: bcs
-      sha256: "30f26ab44c690f173ef491e6af063ee4d7092bb3c7d321c4cea210b81412d926"
+      sha256: "90fb0ea61e127d87aa64ba0f71a42c1d04ba5588ec4fed23c32f7a7b35c8eedd"
       url: "https://pub.dev"
     source: hosted
-    version: "0.0.5"
+    version: "0.0.6"
   bip32:
     dependency: transitive
     description:
@@ -346,12 +346,11 @@ packages:
   sui:
     dependency: "direct main"
     description:
-      path: "."
-      ref: "1355f22a6e86a6c35e6a23c41d7ef97f3400aa57"
-      resolved-ref: "1355f22a6e86a6c35e6a23c41d7ef97f3400aa57"
-      url: "https://github.com/mofalabs/sui"
-    source: git
-    version: "0.1.7"
+      name: sui
+      sha256: "0d8a0a96750f23ab42b38e291834ea14612a32d876ae7907314d55bd07c74b1e"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.2.0"
   sui_shinami:
     dependency: "direct main"
     description:
