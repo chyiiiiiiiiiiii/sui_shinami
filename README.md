@@ -6,10 +6,8 @@
   <img src="shinami.png" width="100%" alt="sui_shinami" />
 </p>
 
-This package is developed for integration Shinami SDK for Sui.
-We can easily use own sponsored wallet for user's transactions to give a smoothly experience.
-
-> Now support by **PassionLab**.
+This package is developed for integrating Shinami SDK for Sui.
+We can easily use our own sponsored wallet for users' transactions to give a smooth experience.
 
 ## Features
 
